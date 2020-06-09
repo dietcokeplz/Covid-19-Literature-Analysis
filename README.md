@@ -6,11 +6,11 @@ My project is divided into the following tasks
 
 I. Exploratory Data Analysis
 
-Find out the distribution of articles a user interacts within the dataset and provide a visual and descriptive statistics.
+Find out the distribution of articles within the dataset and provide a visual and descriptive statistics.
 
 II. Natural Language Processing and Topic Modeling
 
-Provide two functions to get n top articles names and n top articles ids.
+Utilize NLP techniques to preprocess the text: handling multiple languages, remove punctuations/stopwords, tokenize the text and other feature engineering. Apply LDA for topic modeling and grid search method is used to find the optimal hyperparameters combinations. 
 
 III. Content Based Collaborative Filtering : reformat the df dataframe to be shaped with papers as the rows and topics as the columns.
 

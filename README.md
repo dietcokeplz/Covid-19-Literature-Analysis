@@ -4,7 +4,7 @@ For this project I analyze the literatures of Covid-19 from various sources usin
 
 My project is divided into the following tasks
 
-I. Exploratory Data Analysis
+### I. Exploratory Data Analysis
 
 Find out the distribution of articles within the dataset and provide a visual and descriptive statistics.
 

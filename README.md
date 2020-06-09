@@ -15,7 +15,7 @@ Utilize NLP techniques to preprocess the text: handling multiple languages, remo
 III. Content Based Collaborative Filtering : reformat the df dataframe to be shaped with papers as the rows and topics as the columns.
 
 Each paper should only appear in each row once.<br>
-Each topic should only show up in one column.
+Each topic should only show up in one column.<br>
 I set the limit of number of topic to 3 so all the text that is put into LDA model to find topic will should only show as many as 3 topics with highest probability.
 If a paper has interacted with a topic, then place a 1 where the paper-row meets for that topic-column.
 If a topic does not show as one of the top 3 topics of a paper, then place a zero where the paper-row meets for that topic-column

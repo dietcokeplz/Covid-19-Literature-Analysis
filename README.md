@@ -16,12 +16,12 @@ III. Content Based Collaborative Filtering : reformat the df dataframe to be sha
 
 Each paper should only appear in each row once.<br>
 Each topic should only show up in one column.<br>
-I set the limit of number of topic to 3 so all the text that is put into LDA model to find topic will should only show as many as 3 topics with highest probability.
-If a paper has interacted with a topic, then place a 1 where the paper-row meets for that topic-column.
+I set the limit of number of topic to 3 so all the text that is put into LDA model to find topic will should only show as many as 3 topics with highest probability.<br>
+If a paper has interacted with a topic, then place a 1 where the paper-row meets for that topic-column.<br>
 If a topic does not show as one of the top 3 topics of a paper, then place a zero where the paper-row meets for that topic-column
 
 V. Topic Modeling the unseen text and Matrix Factorization
 
-Unseen text that is put into lDA model will return the top 3 topics with highest probabilities.
-Generate a single row for the unseen text where the row stands for the paper and the columns represent all the topics. Place model returned probability and put 0 everywhere else.
+Unseen text that is put into lDA model will return the top 3 topics with highest probabilities.<br>
+Generate a single row for the unseen text where the row stands for the paper and the columns represent all the topics. Place model returned probability and put 0 everywhere else.<br>
 Build similarity matrix factorization to make paper recommendations. Paper with the highest similarities will be recommended to the unseen text.

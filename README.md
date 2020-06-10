@@ -23,7 +23,7 @@ If a topic does not show as one of the top 3 topics of a paper, then place a zer
 ### IV. Topic Modeling the unseen text and Matrix Factorization
 
 Unseen text that is put into lDA model will return the top 3 topics with highest probabilities.<br>
-Generate a single row for the unseen text where the row stands for the paper and the columns represent all the topics. Place model returned probability and put 0 everywhere else.<br>
+Generate a single row for the unseen text where the row stands for the paper and the columns represent all the topics. Place model returned probability under corresponding topic column and put 0 everywhere else.<br>
 Build similarity matrix factorization to make paper recommendations. Paper with the highest similarities will be recommended to the unseen text.
 
 ### V. LDAvis visualization of LDA model topics

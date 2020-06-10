@@ -1,6 +1,6 @@
 # Covid-19-Literature-Analysis
 
-For this project I analyze the literatures of Covid-19 from various sources using LDA topic modeling, and make recommendations based on similarities using collaborative filtering to the text that user put into the LDA model to find topic for.
+For this project I analyze the literatures of Covid-19 from various sources using LDA topic modeling, and make recommendations based on similarities using collaborative filtering to the text that user put into the LDA model to find topic for. Data for this project: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 
 My project is divided into the following tasks:
 

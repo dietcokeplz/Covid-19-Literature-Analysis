@@ -26,7 +26,7 @@ Unseen text that is put into lDA model will return the top 3 topics with highest
 Generate a single row for the unseen text where the row stands for the paper and the columns represent all the topics. Place model returned probability under corresponding topic column and put 0 everywhere else.<br>
 Build similarity matrix factorization to make paper recommendations. Paper with the highest similarities will be recommended to the unseen text.
 
-### V. LDAvis visualization of LDA model topics
+### V. pyLDAvis visualization of LDA model topics
 
-Unfortuanately, the visualization of the LDA model topics using LDAvis moduel is not able to be shown by Github currently.
+Unfortuanately, the visualization of the LDA model topics using pyLDAvis moduel is not able to be shown by Github currently.
 The visualization should be similar to picture at the Url: https://stackoverflow.com/questions/32531031/calculate-intertopic-distances-from-ldavis-package, which gives a more precise idea on how the papers distributed and what are the most salient terms in every topic.
